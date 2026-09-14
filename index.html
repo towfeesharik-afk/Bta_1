@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>B. Towfeeq Ahmed — Mathematics, Islamiah College (Autonomous), Vaniyambadi</title>
+<meta name="description" content="B. Towfeeq Ahmed, Assistant Professor of Mathematics, Islamiah College (Autonomous), Vaniyambadi. Research in mathematical statistics and reliability theory.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,600;1,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#FBFAF7;
+  --ink:#171A1F;
+  --muted:#5F6670;
+  --rule:#DEDAD1;
+  --indigo:#26356B;
+  --wash:#F1EFE9;
+  --max:68rem;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:"IBM Plex Sans",system-ui,sans-serif;
+  font-size:16.5px;line-height:1.62;-webkit-font-smoothing:antialiased;
+}
+a{color:var(--indigo);text-decoration:none;border-bottom:1px solid rgba(38,53,107,.3)}
+a:hover{border-bottom-color:var(--indigo)}
+a:focus-visible{outline:2px solid var(--indigo);outline-offset:3px;border-radius:2px}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 1.6rem}
+
+/* ---------- masthead ---------- */
+header.top{border-bottom:1px solid var(--rule);background:var(--paper);position:sticky;top:0;z-index:10}
+header.top .wrap{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding-top:.85rem;padding-bottom:.85rem;flex-wrap:wrap}
+.sig{font-family:Spectral,Georgia,serif;font-size:1.05rem;font-weight:600;letter-spacing:.01em;border:0}
+nav a{font-size:.86rem;color:var(--muted);border:0;margin-left:1.25rem}
+nav a:hover{color:var(--ink)}
+@media(max-width:620px){nav{width:100%}nav a{margin:0 1.1rem 0 0}}
+
+/* ---------- hero ---------- */
+.hero{padding:4.5rem 0 3.2rem;border-bottom:1px solid var(--rule)}
+.hero-grid{display:grid;grid-template-columns:1.35fr .9fr;gap:3rem;align-items:start}
+@media(max-width:820px){.hero-grid{grid-template-columns:1fr;gap:2rem}}
+h1{font-family:Spectral,Georgia,serif;font-weight:600;font-size:clamp(2.3rem,5.2vw,3.5rem);line-height:1.08;margin:0 0 .6rem;letter-spacing:-.015em}
+.role{font-family:Spectral,serif;font-style:italic;font-size:1.2rem;color:var(--muted);margin:0 0 1.4rem}
+.lede{font-size:1.06rem;max-width:34em;margin:0 0 1.6rem}
+.affil{font-size:.95rem;color:var(--muted);border-left:2px solid var(--indigo);padding-left:1rem;margin:0}
+.ids{margin-top:1.8rem;display:flex;flex-wrap:wrap;gap:.5rem}
+.ids a{font-size:.83rem;border:1px solid var(--rule);border-radius:999px;padding:.3rem .85rem;color:var(--ink);background:#fff}
+.ids a:hover{border-color:var(--indigo);color:var(--indigo)}
+
+/* portrait / formula card */
+.card{background:var(--wash);border:1px solid var(--rule);padding:1.5rem}
+.card h3{font-family:"IBM Plex Sans",sans-serif;font-size:.8rem;font-weight:600;color:var(--muted);margin:0 0 .9rem;letter-spacing:.02em}
+.formula{font-family:Spectral,Georgia,serif;font-size:1.28rem;text-align:center;padding:.9rem 0;color:var(--indigo)}
+.formula sub,.formula sup{font-size:.62em}
+.formula-note{font-size:.82rem;color:var(--muted);margin:.4rem 0 0;text-align:center;font-style:italic}
+.portrait{width:100%;aspect-ratio:4/5;object-fit:cover;border:1px solid var(--rule);display:block;background:var(--wash)}
+
+/* ---------- sections ---------- */
+section{padding:3.4rem 0;border-bottom:1px solid var(--rule)}
+h2{font-family:Spectral,Georgia,serif;font-size:1.55rem;font-weight:600;margin:0 0 1.6rem;letter-spacing:-.01em}
+h3.sub{font-family:Spectral,serif;font-size:1.1rem;font-weight:600;margin:2rem 0 .8rem}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:2rem}
+.two h3{font-size:1rem;margin:0 0 .5rem;font-weight:600}
+.two p{margin:0;color:var(--muted);font-size:.95rem}
+
+/* ---------- publications ---------- */
+ol.pubs{list-style:none;counter-reset:p;margin:0;padding:0}
+ol.pubs li{counter-increment:p;padding:1.15rem 0 1.15rem 3rem;border-top:1px solid var(--rule);position:relative}
+ol.pubs li:first-child{border-top:0}
+ol.pubs li::before{
+  content:"[" counter(p) "]";position:absolute;left:0;top:1.15rem;
+  font-family:Spectral,serif;color:var(--muted);font-size:.92rem}
+.pub-title{font-family:Spectral,Georgia,serif;font-size:1.06rem;font-weight:600;display:block;margin-bottom:.2rem}
+.pub-meta{font-size:.93rem;color:var(--muted)}
+.pub-links{margin-top:.5rem;font-size:.85rem;display:flex;gap:1.1rem;flex-wrap:wrap}
+.pub-links a{border:0;border-bottom:1px solid rgba(38,53,107,.35)}
+details.cite{margin-top:.6rem}
+details.cite summary{font-size:.85rem;color:var(--muted);cursor:pointer;list-style:none;display:inline-block;border-bottom:1px dotted var(--muted)}
+details.cite summary::-webkit-details-marker{display:none}
+details.cite summary:hover{color:var(--ink)}
+.cite-box{background:var(--wash);border:1px solid var(--rule);padding:.85rem 1rem;margin-top:.6rem;font-size:.86rem;line-height:1.55}
+.cite-box p{margin:0 0 .55rem}
+.cite-box p:last-child{margin:0}
+.cite-box b{font-family:"IBM Plex Sans",sans-serif;font-size:.76rem;color:var(--muted);display:block;font-weight:600}
+.todo{background:#FFF7E0;border:1px dashed #C9A227;padding:.75rem 1rem;font-size:.88rem;color:#6B5200;margin:1.2rem 0}
+
+/* ---------- supervision ---------- */
+.sup-list{margin:0;padding:0;list-style:none}
+.sup-list li{padding:.8rem 0;border-top:1px solid var(--rule);display:flex;justify-content:space-between;gap:1.5rem;flex-wrap:wrap}
+.sup-list li:first-child{border-top:0}
+.sup-name{font-weight:500}
+.sup-status{font-size:.88rem;color:var(--muted)}
+
+/* ---------- teaching ---------- */
+.chips{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:.8rem}
+.chips span{font-size:.85rem;background:var(--wash);border:1px solid var(--rule);padding:.28rem .75rem}
+
+/* ---------- contact ---------- */
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:2.5rem}
+@media(max-width:720px){.contact-grid{grid-template-columns:1fr;gap:1.8rem}}
+dl{margin:0}
+dt{font-size:.78rem;color:var(--muted);font-weight:600;margin-top:1rem}
+dt:first-child{margin-top:0}
+dd{margin:.15rem 0 0;font-size:1rem}
+footer{padding:2.2rem 0 3rem;font-size:.85rem;color:var(--muted)}
+footer p{margin:.25rem 0}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="sig" href="#top">B. Towfeeq Ahmed</a>
+    <nav>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#supervision">Supervision</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <h1>B. Towfeeq Ahmed</h1>
+      <p class="role">Assistant Professor of Mathematics</p>
+      <p class="lede">I work in mathematical statistics and reliability theory — nonparametric tests for stochastic ageing classes, U-statistic asymptotics, and data-driven models for remaining useful life.</p>
+      <p class="affil">Department of Mathematics<br>Islamiah College (Autonomous), Vaniyambadi<br>Affiliated to Thiruvalluvar University, Tamil Nadu, India</p>
+      <div class="ids">
+        <a href="#" title="ORCID link will be added">ORCID</a>
+        <a href="#" title="Google Scholar link will be added">Google Scholar</a>
+        <a href="#" title="ResearchGate link will be added">ResearchGate</a>
+        <a href="#" title="Web of Science link will be added">Web of Science</a>
+        <a href="cv.pdf">Curriculum vitae (PDF)</a>
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <h3>Current line of work</h3>
+        <p class="formula">&Phi;<sub>F</sub>(u) = &int;<sub>0</sub><sup>F<sup>&minus;1</sup>(u)</sup> <span style="font-style:italic">F&#772;</span>(x)&thinsp;dx</p>
+        <p class="formula-note">The total time on test transform — the object behind most of the ageing-class tests I build.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section id="research">
+  <div class="wrap">
+    <h2>Research</h2>
+    <div class="two">
+      <div>
+        <h3>Stochastic ageing classes</h3>
+        <p>Nonparametric tests for exponentiality against ageing alternatives — DFR, UBAC(2), EBUCL and related classes, in univariate and multivariate settings.</p>
+      </div>
+      <div>
+        <h3>U-statistic asymptotics</h3>
+        <p>Test statistics built from U-statistic kernels: null and alternative asymptotic behaviour, consistency, and Pitman efficiency against standard alternatives.</p>
+      </div>
+      <div>
+        <h3>Maintenance and replacement policy</h3>
+        <p>Optimal age-replacement under dependent failure processes, including doubly geometric and Hawkes-type intensity models.</p>
+      </div>
+      <div>
+        <h3>Remaining useful life prediction</h3>
+        <p>Degradation modelling and conformal prediction intervals for RUL, validated on benchmark battery and turbofan datasets.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="publications">
+  <div class="wrap">
+    <h2>Publications</h2>
+<ol class="pubs">
+      <li>
+        <span class="pub-title">Integrating Machine Learning and Statistical Approaches for Predicting Breast Cancer Survival</span>
+        <span class="pub-meta">Journal of Statistics and Mathematical Engineering, Vol. 10, No. 1, pp. 17–22, January 2025.</span>
+      </li>
+      <li>
+        <span class="pub-title">Comparative Analysis of Car Price Prediction Using Machine Learning and Beyond-A Data-Driven Approach</span>
+        <span class="pub-meta">Journal of Image Processing and Artificial Intelligence, Vol. 11, No. 1, pp. 43–53, March 2025.</span>
+      </li>
+      <li>
+        <span class="pub-title">Car Price Prediction Using Machine Learning: A Data-Driven Approach</span>
+        <span class="pub-meta">Journal of Mathematics and Artificial Intelligence (JMAI), 1(1), pp. 40–46, 2025.</span>
+      </li>
+      <li>
+        <span class="pub-title">Transformation Properties of some Aging Classes under Total-Time-On-Test Transform</span>
+        <span class="pub-meta">Journal of Statistics and Mathematical Engineering, Vol. 7, Issue 2, pp. 13–18, 2021.</span>
+      </li>
+      <li>
+        <span class="pub-title">Testing Bivariate Exponentiality against Some Bivariate Ageing Classes – A Very Strong Version</span>
+        <span class="pub-meta">The International Journal of Analytical and Experimental Modal Analysis, Vol. XI, Issue X, pp. 974–980, 2019.</span>
+      </li>
+      <li>
+        <span class="pub-title">Transformation Properties of Aging Classes under Excess Wealth Transform</span>
+        <span class="pub-meta">International Journal of Research in Advent Technology (IJRAT), Vol. 6, No. 8, pp. 2008–2018, 2018.</span>
+      </li>
+      <li>
+        <span class="pub-title">Transformation Properties of Aging Classes under TTT Transform</span>
+        <span class="pub-meta">International Journal of Research and Analytical Reviews (IJRAR), Vol. 5, Issue 3, pp. 922–933, 2018.</span>
+      </li>
+      <li>
+        <span class="pub-title">Testing exponentiality against harmonic new better than Used in expectation ageing classes</span>
+        <span class="pub-meta">International Journal of Current Advanced Research (IJCAR), Vol. 7, Issue 1 / Special Issue 1, pp. 16–19.</span>
+      </li>
+      <li>
+        <span class="pub-title">Some New Result on Characterization of NBUAT-t0</span>
+        <span class="pub-meta">Recent Trends in Mathematics, Shanlax Publications, 2016.</span>
+      </li>
+      <li>
+        <span class="pub-title">A New Class of Life Distribution based on Characteristic Function Ordering</span>
+        <span class="pub-meta">International Journal of Science and Humanities, Vol. 1(2), pp. 739–746, 2015.</span>
+      </li>
+      <li>
+        <span class="pub-title">Characterization of Ageing Classes in Excess Wealth Transform Order</span>
+        <span class="pub-meta">International Journal of Science and Humanities, Vol. 1(1), pp. 36–46, 2015.</span>
+      </li>
+      <li>
+        <span class="pub-title">Relationship Among Positive Ageing classes</span>
+        <span class="pub-meta">Journal of Emerging Technologies and Innovative Research, Vol. XX, Issue X, pp. 25–31, 2017.</span>
+      </li>
+    </ol>
+</div>
+</section>
+
+<section id="supervision">
+  <div class="wrap">
+    <h2>Research supervision</h2>
+    <p class="lede">Research interests include mathematical statistics and reliability theory. For research collaboration or supervision-related enquiries, please contact me by email.</p>
+<h3 class="sub">Topics open to new scholars</h3>
+    <div class="chips">
+      <span>Nonparametric tests for ageing classes</span>
+      <span>Multivariate reliability models</span>
+      <span>Optimal maintenance policy</span>
+      <span>Degradation and RUL modelling</span>
+      <span>U-statistics and asymptotic efficiency</span>
+    </div>
+  </div>
+</section>
+
+<section id="teaching">
+  <div class="wrap">
+    <h2>Teaching</h2>
+    <p>M.Sc. and B.Sc. Mathematics, Islamiah College (Autonomous).</p>
+    <div class="chips">
+      <span>Abstract Algebra</span>
+      <span>Real Analysis</span>
+      <span>Complex Analysis</span>
+      <span>Ordinary Differential Equations</span>
+      <span>Integral Equations</span>
+      <span>Fourier Transforms</span>
+      <span>Probability and Statistics</span>
+    </div>
+    <h3 class="sub">Qualifications and recognition</h3>
+    <ul class="sup-list">
+      <li><span class="sup-name">Ph.D. in Mathematics</span> <span class="sup-status">Thiruvalluvar University, Vellore · 2020</span></li>
+      <li><span class="sup-name">M.Sc. Mathematics</span> <span class="sup-status">Thiruvalluvar University, Vellore · 2009</span></li>
+      <li><span class="sup-name">Certificates and awards</span> <span class="sup-status"><a href="certificates/">View all certificates</a></span></li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <h2>Contact</h2>
+    <div class="contact-grid">
+      <dl>
+        <dt>Email</dt>
+        <dd><a href="mailto:your.name@example.com">your.name@example.com</a></dd>
+        <dt>Phone</dt>
+        <dd><a href="tel:+918825801472">+91 88258 01472</a></dd>
+        <dt>Office hours</dt>
+        <dd>Monday–Friday, 10:00–16:00 IST</dd>
+      </dl>
+      <dl>
+        <dt>Postal address</dt>
+        <dd>Department of Mathematics<br>Islamiah College (Autonomous)<br>Vaniyambadi 635 752<br>Tirupattur District, Tamil Nadu, India</dd>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>© 2026 B. Towfeeq Ahmed. Last updated September 2026.</p>
+    <p>Views expressed here are my own and do not represent Islamiah College (Autonomous).</p>
+  </div>
+</footer>
+
+</body>
+</html>
